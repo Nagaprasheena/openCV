@@ -1,0 +1,9 @@
+body { background-color: #0b0c10; color: #c5c6c7; }
+.navbar { background: linear-gradient(90deg, #1f2833, #0b0c10); }
+.card { background-color: #1f2833; color: #c5c6c7; }
+.btn-primary { background-color: #45a29e; border-color: #45a29e; }
+.btn-primary:hover { background-color: #3d918d; border-color: #3d918d; }
+.form-control, .form-select { background-color: #0b0c10; color: #c5c6c7; border-color: #3a3f44; }
+.form-control:focus, .form-select:focus { background-color: #0b0c10; color: #fff; border-color: #45a29e; box-shadow: 0 0 0 .2rem rgba(69,162,158,.25); }
+.alert { background-color: #2b3137; color: #fff; border: none; }
+img { max-height: 70vh; object-fit: contain; background: #000; }

@@ -38,5 +38,38 @@ cd openCV
 ```
 Navigate to the desired directory and run the Python scripts. Each directory contains a README file with specific instructions and explanations for the included examples.
 
+#### Run the Web App (Flask UI)
+This repository also includes a Flask-based UI that wraps common OpenCV operations (grayscale, blur, canny, thresholding, histogram equalization, gradients, transformations, masking, smoothing, contours, and face detection using the included Haar cascade file `Leraning_opencv/haar_face.xml`).
+
+1. Create and activate a virtual environment (recommended):
+   - Windows (PowerShell)
+     ```powershell
+     python -m venv .venv
+     .venv\Scripts\Activate.ps1
+     ```
+   - macOS/Linux
+     ```bash
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the app:
+   ```bash
+   python main.py
+   ```
+
+4. Open your browser to:
+   - http://127.0.0.1:5000/
+
+5. Usage notes:
+   - Upload an image (PNG/JPG/JPEG/WEBP/BMP), select an operation, adjust parameters, and process.
+   - Results are saved in the `results/` folder. Uploaded files are saved in `uploads/`.
+   - For face detection, the app uses the `Leraning_opencv/haar_face.xml` cascade file.
+
 ### Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
